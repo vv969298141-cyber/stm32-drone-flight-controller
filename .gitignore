@@ -1,0 +1,46 @@
+# Keil / MDK user settings
+*.uvgui.*
+*.uvguix.*
+*.uvgui_*
+*.uvopt
+*.uvoptx
+*.uvopt.bak
+*.uvproj.bak
+*.saved_uv4
+DebugConfig/
+
+# Keil / ARM build outputs
+MDK-ARM/wrj2/
+MDK-ARM/*.log
+MDK-ARM/*.lst
+*.axf
+*.bin
+*.build_log.htm
+*.crf
+*.d
+*.dep
+*.hex
+*.htm
+*.lnp
+*.map
+*.o
+*.sct.Bak
+
+# CubeMX / editor noise
+.settings/
+.metadata/
+*.launch
+*.swp
+*.tmp
+Thumbs.db
+Desktop.ini
+
+# Unused CMSIS extras copied by CubeMX
+Drivers/CMSIS/Core/
+Drivers/CMSIS/Core_A/
+Drivers/CMSIS/DAP/
+Drivers/CMSIS/Documentation/
+Drivers/CMSIS/DSP/
+Drivers/CMSIS/NN/
+Drivers/CMSIS/RTOS/
+Drivers/CMSIS/RTOS2/
